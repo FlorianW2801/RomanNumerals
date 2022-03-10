@@ -54,7 +54,7 @@ namespace ReadRomanNumerals
 			}
 		}
 
-		public uint MaxNormalAppearances()
+		private uint MaxNormalAppearances()
 		{
 			switch (_enumChar)
 			{
@@ -72,7 +72,7 @@ namespace ReadRomanNumerals
 			}
 		}
 
-		public bool CanBeNegative()
+		private bool CanBeNegative()
 		{
 			switch (_enumChar)
 			{
@@ -90,7 +90,7 @@ namespace ReadRomanNumerals
 			}
 		}
 
-		public bool CanNegateAnother()
+		private bool CanNegateAnother()
 		{
 			switch (_enumChar)
 			{
